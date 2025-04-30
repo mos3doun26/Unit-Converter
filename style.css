@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.container {
+    width: 550px;
+    height: 730px;
+    margin: 100px auto;
+}
+
+.hero {
+    background: #6943FF;
+    padding: 30px 20px
+}
+
+h2 {
+    color: white;
+    font-weight: 800;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+input {
+    display: block;
+    margin: 0 auto;
+    height: 70px;
+    width: 90px;
+    background: #6943FF;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: inherit;
+    padding: 10px;
+    text-align: center;
+}
+
+button {
+    width: 112px;
+    height: 40px;
+    background: white;
+    border: none;
+    border-radius: 5px;
+    font-family: inherit;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 25px;
+}
+
+.results {
+    background: #F4F4F4;
+    padding: 10px 20px;
+}
+
+.card {
+    padding: 30px 0;
+    margin: 20px 0;
+    background-color: white;
+    border-radius: 5px;
+
+}
+
+.card h3 {
+    color: #5A537B;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #353535;
+    font-size: 14px;
+}
