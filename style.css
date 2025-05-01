@@ -43,6 +43,11 @@ input {
     text-align: center;
 }
 
+input:focus {
+    outline: none;
+    border: 2px solid lightgray;
+}
+
 button {
     width: 112px;
     height: 40px;
