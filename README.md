@@ -1,2 +1,2 @@
 ## Unit converter ##
-* Multiple unit converter *
+Multiple unit converter 
