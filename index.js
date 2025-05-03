@@ -41,3 +41,12 @@ convertBtn.addEventListener("click", () => {
 
 
 })
+
+// local theme settings
+const localThemeSetings = window.matchMedia("(prefers-color-scheme: dark)")
+const currentTheme = document.querySelector("html")
+
+let theme = localThemeSetings.matches ? "dark" : "light"
+currentTheme.setAttribute("data-theme", theme)
+
+console.log(localThemeSetings)

@@ -3,16 +3,32 @@
     padding: 0;
 }
 
+[data-theme="dark"] {
+    --results-bg-color: #1F2937;
+    --card-bg-color: #273549;
+    --card-h3-color: #CCC1FF;
+    --card-p-color: #FFFFFF;
+}
+
+[data-theme="light"] {
+    --results-bg-color: #F4F4F4;
+    --card-bg-color: #FFFFFF;
+    --card-h3-color: #5A537B;
+    --card-p-color: #353535;
+}
+
 body {
     font-family: "Inter", sans-serif;
     box-sizing: border-box;
     text-align: center;
+    min-width: 550px;
+    min-height: 730px;
 }
 
 .container {
-    width: 550px;
-    height: 730px;
-    margin: 100px auto;
+    /* width: 550px; */
+    /* height: 730px; */
+    margin: 0 auto;
 }
 
 .hero {
@@ -61,26 +77,26 @@ button {
 }
 
 .results {
-    background: #F4F4F4;
+    background: var(--results-bg-color);
     padding: 10px 20px;
 }
 
 .card {
     padding: 30px 0;
     margin: 20px 0;
-    background-color: white;
+    background-color: var(--card-bg-color);
     border-radius: 5px;
 
 }
 
 .card h3 {
-    color: #5A537B;
+    color: var(--card-h3-color);
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
 }
 
 .card p {
-    color: #353535;
+    color: var(--card-p-color);
     font-size: 14px;
 }

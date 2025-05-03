@@ -1,0 +1,12 @@
+{
+    "name": "Unit-Converter",
+    "version": "1.0.0",
+    "description": "Multiple unit converter",
+    "manifest_version": 3,
+    "author": "Mohamed Samir",
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Unit converter",
+        "default_icon": "converter.png"
+    }
+}
